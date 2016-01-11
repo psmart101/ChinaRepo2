@@ -94,7 +94,7 @@ def question1(weiboPostList):
     provinceDict = {}
     overseasDict = {"其他": 0, "海外": 0}
 
-    MK_Count, KS_Count = 0, 0  # this could have been set up better.
+    MK_Count, KS_Count = 0, 0 
     for post in weiboPostList:
         if post.hasKors:
             MK_Count += 1
